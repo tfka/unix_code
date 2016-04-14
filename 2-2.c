@@ -9,6 +9,7 @@ int main(int argc, char *argv[])
 	{
 		err_quit("usage: a.out <dirname>");
 	}
+	printf("%s\n",argv[0]);
 	#ifdef ARG_MAX
 		printf("ARG_MAX defined to be %d\n",ARG_MAX + 0);
 	#else
